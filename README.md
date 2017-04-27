@@ -1,1 +1,1 @@
-# miniPuzzle https://zhuangfeilong.github.io/puzzle/puzzle.html
+# miniPuzzle <a target="https://zhuangfeilong.github.io/puzzle/puzzle.html">迷你拼图</a>
