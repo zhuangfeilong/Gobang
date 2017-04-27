@@ -70,7 +70,8 @@ function whereGo(cur_div) {
   }
 }
 function alltime() {
-  time += 1;
+  var startTime = date()
+  time = date(now) - startTime;
   var min = parseInt(time/60);
   var sec = time%60;
   document.getElementById("alltime").innerHTML = min + "分" + sec +"秒";
