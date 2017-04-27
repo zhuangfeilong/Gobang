@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="puzzle.css">
+  <script type="text/javascript" src="puzzle.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="container">
+    <div id="game">
+      <div id="d1" onclick="move(1)">01</div>
+      <div id="d2" onclick="move(2)">02</div>
+      <div id="d3" onclick="move(3)">03</div>
+      <div id="d4" onclick="move(4)">04</div>
+      <div id="d5" onclick="move(5)">05</div>
+      <div id="d6" onclick="move(6)">06</div>
+      <div id="d7" onclick="move(7)">07</div>
+      <div id="d8" onclick="move(8)">08</div>
+    </div>
+    <div id="control">
+      <p>
+        <rowspan id="timeText">计时:
+          <b id="alltime"></b>
+        </rowspan>
+      </p>
+      <p>
+        <rowspan id="start" onclick="start()">开始游戏</rowspan>
+        <rowspan id="reset" onclick="reset()">重新开始</rowspan>
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>

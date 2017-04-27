@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: #ddd;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+#container {
+  position: relative;
+  width: 620px;
+  height: 450px;
+  margin-top: 100px;
+  border-radius: 2px;
+}
+#game {
+  position: absolute;
+  top: 100px;
+  width: 450px;
+  height: 450px;
+  border-radius: 5px;
+  background-color: #007ACC;
+  box-shadow: 0 0 10px #007ACC;
+}
+#game div {
+  position: absolute;
+  width: 149px;
+  height: 149px;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  line-height: 150px;
+  background-color: #20A6FA;
+  box-shadow: 1px 1px 2px #777;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+     -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+       -o-transition: 0.3s;
+          transition: 0.3s;
+}
+#game div:hover {
+  color: #FFE171;
+}
+#container {
+  height: 25px;
+  font-size: 20px;
+  color: #333;
+  margin-top: 10px;
+}
+#control {
+  display: inline-block;
+  width: 450px;
+  height: 100px;
+}
+#control rowspan {
+  height: 25px;
+  font-size: 20px;
+  color: #333;
+  margin-top: 10px;
+}
+#start {
+  position: absolute;
+  left: 150px;
+  width: 100px;
+  height: 28px;
+  cursor: pointer;
+  font-size: 28px;
+  color: #007ACC;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #20A6FA;
+  box-shadow: 2px 2px 5px #4C93F7;
+  text-shadow: 1px 1px 2px #007ACC;
+}
+#reset {
+  position: absolute;
+  left: 300px;  
+  width: 100px;
+  height: 28px;
+  font-size: 28px;
+  cursor: pointer;
+  color: #007ACC;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #20A6FA;
+  text-shadow: 1px 1px 2px #007ACC;
+  box-shadow: 2px 2px 5px #4C93F7;
+}
+#game div {
+  background-size: 150px;
+}
+#d1 {
+  left: 0;
+  background-image: url(img/img1.jpeg);
+}
+#d2 {
+  left: 150px;
+  background-image: url(img/img2.jpeg);
+}
+#d3 {
+  left: 300px;
+  background-image: url(img/img3.jpeg);
+}
+#d4 {
+  top: 150px;
+  background-image: url(img/img4.jpeg);
+}
+#d5 {
+  top: 150px;
+  left: 150px;
+  background-image: url(img/img5.jpeg);
+}
+#d6 {
+  top: 150px;
+  left: 300px;
+  background-image: url(img/img6.jpeg);
+}
+#d7 {
+  top: 300px;
+  background-image: url(img/img7.jpeg);
+}
+#d8 {
+  top: 300px;
+  left: 150px;
+  background-image: url(img/img8.jpeg);
+}
